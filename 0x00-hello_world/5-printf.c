@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * main - Print a string
+ * Description: use printf
+ * Return: 0
  */
 
 int main(void)
 {
-	puts("\"with proper grammar, but the out come is a piece of art,");
+	printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
-
 }
